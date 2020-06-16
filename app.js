@@ -29,7 +29,7 @@ btn.addEventListener("click", () => {
 function readOutLoad(message) {
     const speech = new SpeechSynthesisUtterance();
 
-    speech.text = "How will i know idiot fucker";
+    speech.text = "How will i know";
 
     if (message.includes("how are you")) {
         const greetText =
