@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 0em;
+}
+body {
+    background-color: aquamarine;
+    /* height: 100vh; */
+    width: 100%;
+}
+.talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-bottom: 4%;
+    margin-left: auto;
+    width: 32%;
+    padding: 16.4px;
+    font-size: larger;
+    font-family: cursive;
+    font-weight: 600;
+    border-radius: 27px;
+    outline: none;
+    border: 0px;
+}
+.talk:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.content {
+    margin: 0rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: cursive;
+}
+.content::before {
+    content: "'";
+}
+.content::after {
+    content: "'";
+}
